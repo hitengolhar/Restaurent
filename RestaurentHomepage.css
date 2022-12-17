@@ -1,0 +1,57 @@
+body {
+    background-image: url(restaurentbackground.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.responsive {
+    width: 50%;
+    height: 50%;
+}
+
+.center {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    z-index: 2;
+}
+
+button {
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    width: 16%;
+    margin: auto;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: serif;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 3;
+    cursor: pointer;
+    border-bottom: 4px solid black;
+}
+
+#id1 {
+    left: 25%;
+}
+
+#id2 {
+    left: 42%;
+}
+
+#id3 {
+    right: 25%;
+}
+
+button:hover {
+    background-color: mediumseagreen;
+    color: #fff;
+    text-decoration: none;
+}

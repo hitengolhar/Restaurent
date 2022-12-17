@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to right, burlywood 40%, red);
+}
+
+h1 {
+    border: 2px double black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+    font-size: 16px;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+}
